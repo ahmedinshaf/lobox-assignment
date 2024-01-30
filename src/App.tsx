@@ -5,17 +5,17 @@ import Option from "./types/DropdownOption";
 
 // dropdown options ( only config needed )
 const options: Option[] = [
-  { label: "Technology 💻", value: "technology" },
-  { label: "Health 🏥", value: "health" },
-  { label: "Sports 🏈", value: "sports" },
-  { label: "Music 🎵", value: "music" },
-  { label: "Travel 🌍", value: "travel" },
-  { label: "Food 🍔", value: "food" },
-  { label: "Art 🎨", value: "art" },
-  { label: "Finance 💰", value: "finance" },
-  { label: "Nature 🌳", value: "nature" },
-  { label: "Fashion 👗", value: "fashion" },
-  { label: "Science 🔬", value: "science" },
+  { label: "Technology 💻", value: "Technology" },
+  { label: "Health 🏥", value: "Health" },
+  { label: "Sports 🏈", value: "Sports" },
+  { label: "Music 🎵", value: "Music" },
+  { label: "Travel 🌍", value: "Travel" },
+  { label: "Food 🍔", value: "Food" },
+  { label: "Art 🎨", value: "Art" },
+  { label: "Finance 💰", value: "Finance" },
+  { label: "Nature 🌳", value: "Nature" },
+  { label: "Fashion 👗", value: "Fashion" },
+  { label: "Science 🔬", value: "Science" },
 ];
 
 function App() {
