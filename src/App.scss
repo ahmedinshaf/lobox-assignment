@@ -25,9 +25,9 @@
   box-shadow: 0 0 10px #89a7d3;
   border-radius: 10px;
   max-width: 400px;
+  height: 75px;
   max-height: 100px;
   overflow: scroll;
-  height: 100%;
   flex-wrap: wrap;
   div {
     display: flex;
@@ -50,7 +50,9 @@
 }
 
 .dropdown-selected-list-item {
-  background-color: #f0f0f0;
+  background-color: #f3f4ff;
+  color: #9da2ab;
+  font-weight: bold;
   cursor: pointer;
   display: flex;
   gap: 5px;
@@ -76,7 +78,11 @@
   padding: 5px;
   margin: 5px;
   cursor: pointer;
+  color: #9da2ab;
+  font-weight: bold;
   &.selected {
-    background-color: #f0f0f0; // Change this to the color you want for selected items
+    background-color: #f3f4ff;
+    color: #7f94cd;
+    font-weight: bold;
   }
 }
